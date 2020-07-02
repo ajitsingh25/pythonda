@@ -142,13 +142,17 @@ class SinglyLinkedList:
     return removed
 
   def reverse(self):
+
     prev = None
     curr = self.head
-    next_pointer = curr.next
+    self.tail = curr
 
-    while curr:
+    while curr != None:
+      mynext = curr.next
       curr.next = prev
       prev = curr
-      curr = next_pointer
-      
+      curr = mynext
+
+    self.head = prev
+    print(self.tail.next)
     return self
