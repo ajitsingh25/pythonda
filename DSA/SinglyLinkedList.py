@@ -123,7 +123,6 @@ class SinglyLinkedList:
 
     return True
 
-
   def Remove(self, idx):
     if idx < 0 or idx >= self.length:
       return False
