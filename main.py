@@ -3,7 +3,8 @@ import jumping_on_the_cloud, \
        sock_merchant, \
        count_valleys, \
        repeated_string, \
-       hourglassSum
+       hourglassSum, \
+       arr_left_rot
 
 
 if __name__ == "__main__":
@@ -30,4 +31,7 @@ if __name__ == "__main__":
  [0, 0, 1, 2, 4, 0]]
 
   print(hourglassSum.hourglassSum(arr))
+
+  # array left rotation
+  print(arr_left_rot.arr_left_rot([1,2,3,4,5], 4))
 
