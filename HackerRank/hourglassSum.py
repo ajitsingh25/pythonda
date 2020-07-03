@@ -5,7 +5,9 @@ def hourglassSum(arr):
   # arr col length
   ac = 6
 
-  max_sum = 0
+  # Hour glass has 7 elements, value of each elements lies between -9 to 0
+  # so Max sum in worst case should be -9*7 if all elements are -9
+  max_sum = -9*7
 
   for r in range(ar - 2):
     hsum = 0
