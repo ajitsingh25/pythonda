@@ -4,7 +4,8 @@ import jumping_on_the_cloud, \
        count_valleys, \
        repeated_string, \
        hourglassSum, \
-       arr_left_rot
+       arr_left_rot, \
+       new_year_chaos
 
 
 if __name__ == "__main__":
@@ -16,13 +17,13 @@ if __name__ == "__main__":
 # Sock Merchant
   print(sock_merchant.sock_merchant([10,20,20,10,10,30,50,10,20]))
 
-  # Valleys Count
+# Valleys Count
   print(count_valleys.count_valleys('UDDDUDUU'))
 
 # Repeated String
   print(repeated_string.repeatedString('aba', 10))
 
-  #hour glass
+#hour glass
   arr = [[1, 1, 1, 0, 0, 0],
  [0, 1, 0, 0, 0, 0],
  [1, 1, 1, 0, 0, 0],
@@ -32,6 +33,10 @@ if __name__ == "__main__":
 
   print(hourglassSum.hourglassSum(arr))
 
-  # array left rotation
+# array left rotation
   print(arr_left_rot.arr_left_rot([1,2,3,4,5], 4))
 
+# New year Chaos
+  new_year_chaos.minBribes([2,1,5,3,4])
+  new_year_chaos.minBribes([2,5,1,3,4])
+  new_year_chaos.minBribes([1,2,5,3,7,8,6,4])
