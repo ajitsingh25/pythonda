@@ -5,7 +5,8 @@ import jumping_on_the_cloud, \
        repeated_string, \
        hourglassSum, \
        arr_left_rot, \
-       new_year_chaos
+       new_year_chaos, \
+       min_swap_2
 
 
 if __name__ == "__main__":
@@ -40,3 +41,7 @@ if __name__ == "__main__":
   new_year_chaos.minBribes([2,1,5,3,4])
   new_year_chaos.minBribes([2,5,1,3,4])
   new_year_chaos.minBribes([1,2,5,3,7,8,6,4])
+
+# Min Swap 2
+  print(min_swap_2.min_swap2([1, 3, 5, 2, 4, 6, 7]))
+  print(min_swap_2.min_swap2([2,3,4,1,5]))
