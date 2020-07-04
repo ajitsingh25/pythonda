@@ -6,7 +6,8 @@ import jumping_on_the_cloud, \
        hourglassSum, \
        arr_left_rot, \
        new_year_chaos, \
-       min_swap_2
+       min_swap_2, \
+       arr_maniplation
 
 
 if __name__ == "__main__":
@@ -45,3 +46,10 @@ if __name__ == "__main__":
 # Min Swap 2
   print(min_swap_2.min_swap2([1, 3, 5, 2, 4, 6, 7]))
   print(min_swap_2.min_swap2([2,3,4,1,5]))
+
+# Array Manipulation
+  queries1 = [[1, 2, 100], [2, 5, 100], [3, 4, 100]]
+  queries2 = [[2, 6, 8], [3, 5, 7], [1, 8, 1], [5, 9, 15]]
+
+  arr_maniplation.arr_man(5, queries1)
+  arr_maniplation.arr_man(10, queries2)
